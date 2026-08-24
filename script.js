@@ -5,7 +5,7 @@ function upDate(previewPic){
     to the source file of the preview image
     *needs to be applicable to all 3 images*/
   x=document.getElementById("image");
-  x.style.backgroundImage = "url("+previewPic.src+")";
+  x.style.backgroundImage = "url('"+previewPic.src+"')";
 
   x.innerHTML = previewPic.alt;
 }
